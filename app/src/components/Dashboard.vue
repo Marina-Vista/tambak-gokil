@@ -5,21 +5,31 @@
 <template>
     <div class="w-screen min-h-screen bg-gray-900/90">
 
-        <!-- Navigation -->
-        <div class="block w-full min-h-2 mb-24 border-b-2">
-            <nav>
-                <ul class="w-full flex">
-                    <li class="bg-transparent flex-1 border-black border-r-2 border-l-2 text-gray-400 font-mono text-md text-center">Suhu</li>
-                    <li class="bg-transparent flex-1 border-black border-r-2 border-l-2 text-gray-400 font-mono text-md text-center">Garam</li>
-                    <li class="bg-transparent flex-1 border-black border-r-2 border-l-2 text-gray-400 font-mono text-md text-center">PH</li>
-                    <li class="bg-transparent flex-1 border-black border-r-2 border-l-2 text-gray-400 font-mono text-md text-center">Oksigen</li>
-                </ul>
-            </nav>
+        <!-- Gauge -->
+        <div class="block w-full min-h-2 mb-16 border-b-2">
+            <div class="w-full flex">
+                <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
+                    <p>Suhu</p>
+                    <p class="text-sm my-2">°C</p>
+                </div>
+                <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
+                    <p>Garam</p>
+                    <p class="text-sm my-2">Dummy</p>
+                </div>
+                <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
+                    <p>PH</p>
+                    <p class="text-sm my-2">22</p>
+                </div>
+                <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
+                    <p>Oksigen</p>
+                    <p class="text-sm my-2">Dummy</p>
+                </div>
+            </div>
         </div>
 
         <!-- Untuk data realtime -->
         <!-- <div class="block w-full min-h-20 bg-green-200 mb-56"> -->
-        <div class="block w-full min-h-20 bg-transparent mb-30">
+        <div class="block w-full min-h-20 bg-transparent mb-20">
             <div class="block min-h-10 mx-5 rounded-md border-white border-2 bg-black">
                 <div class="grid grid-cols-4 p-2 text-white font-mono">
 
@@ -55,7 +65,7 @@
         <div class="block w-full min-h-20">
 
             <!-- Untuk connection -->
-            <div class="block w-full min-h-10 mb-20 p-4 bg-transparent">
+            <div class="block w-full min-h-10 mb-18 p-4 bg-transparent">
                 <div class="grid grid-cols-3 p-2 gap-y-5">
                     
                     <div class="text-lg text-center text-black bg-gray-200 active:bg-gray-500 active:shadow-sm transition-all duration-75 shadow-md shadow-black rounded-md p-1">Start</div>
@@ -91,3 +101,15 @@
 
     </div>
 </template>
+
+<script>
+export default {
+    mounted() {
+        
+    },
+    methods: {
+        
+    }
+}
+
+</script>
