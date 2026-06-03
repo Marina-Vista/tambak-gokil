@@ -1,16 +1,12 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <div class="w-screen min-h-screen bg-gray-900/90">
-
+    <div class="w-screen h-screen overflow-hiden bg-gray-900/90">
+        
         <!-- Gauge -->
         <div class="block w-full min-h-2 mb-16 border-b-2">
             <div class="w-full flex">
                 <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
                     <p>Suhu</p>
-                    <p class="text-sm my-2">°C</p>
+                    <p class="text-sm my-2">°C</p> 
                 </div>
                 <div class="bg-transparent flex-1 border-black border-2 text-gray-400 font-mono text-md text-center">
                     <p>Garam</p>
@@ -65,7 +61,7 @@
         <div class="block w-full min-h-20">
 
             <!-- Untuk connection -->
-            <div class="block w-full min-h-10 mb-18 p-4 bg-transparent">
+            <div class="block w-full min-h-10 mb-16 p-4 bg-transparent">
                 <div class="grid grid-cols-3 p-2 gap-y-5">
                     
                     <div class="text-lg text-center text-black bg-gray-200 active:bg-gray-500 active:shadow-sm transition-all duration-75 shadow-md shadow-black rounded-md p-1">Start</div>
