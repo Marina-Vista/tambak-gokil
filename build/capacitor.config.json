@@ -1,0 +1,10 @@
+{
+  "appId": "mvista.tambakgokil.app",
+  "appName": "tambak-gokil",
+  "webDir": "dist",
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true
+    }
+  }
+}

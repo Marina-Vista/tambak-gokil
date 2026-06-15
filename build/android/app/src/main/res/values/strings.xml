@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">tambak-gokil</string>
+    <string name="title_activity_main">tambak-gokil</string>
+    <string name="package_name">mvista.tambakgokil.app</string>
+    <string name="custom_url_scheme">mvista.tambakgokil.app</string>
+</resources>
